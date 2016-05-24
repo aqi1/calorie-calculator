@@ -1,0 +1,52 @@
+html, body{
+  background-color: rgb(240,240,240);
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 1.2em;
+}
+
+.jumbotron{
+  padding-top: 0px;
+  border: 2px solid rgb(230,230,230);
+  background-color: rgb(255,255,255);
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.nav-tabs{
+  margin-bottom: 25px;
+}
+
+.calculator{
+  margin: 0 auto;
+  max-width: 330px;
+}
+
+#slider{
+  margin-top: 10px;
+}
+
+#calcResultsBox{
+  font-size: 1.1em;
+}
+
+#calcResultsBox td{
+  padding: 0 7px;
+}
+
+.openCloseButtons{
+  background-color: rgba(0,0,0,0);
+  border: 0px;
+  font-size: 0.75em;
+}
+
+.no-transition {
+  -webkit-transition: height 0.01s;
+  -moz-transition: height 0.01s;
+  -ms-transition: height 0.01s;
+  -o-transition: height 0.01s;
+  transition: height 0.01s;
+}
