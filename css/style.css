@@ -31,8 +31,7 @@ h1{
 }
 
 .calculator{
-  /* margin: 0 auto; */
-	margin-left: 20px;
+  margin: 0 auto;
   max-width: 330px;
 }
 
