@@ -2,8 +2,12 @@ $(document).ready(main);
 
 function main() {
 
+	// hide jumbotron until navigation bar finishes loading
+	$(".jumbotron").hide();
 	// load navigation bar
-	$("#navbarheader").load("navigationbar.html");
+	$("#navbarheader").load("navigationbar.html",function(){
+		$(".jumbotron").show();
+	});
 		
   // cache selectors
   var $imperialTab = $("#imperialTab"),

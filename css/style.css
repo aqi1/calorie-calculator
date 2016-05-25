@@ -1,4 +1,4 @@
-html, body{
+body{
   background-color: rgb(240,240,240);
   font-family: sans-serif;
 }
@@ -13,7 +13,7 @@ h1{
 }
 
 .jumbotron{
-  padding-top: 0px;
+	padding-top: 20px;
   border: 2px solid rgb(230,230,230);
   background-color: rgb(255,255,255);
   margin-left: auto;
@@ -22,11 +22,17 @@ h1{
 }
 
 .nav-tabs{
+	margin-top: -25px;
   margin-bottom: 25px;
 }
 
+.upperArea{
+	padding-bottom: 25px;
+}
+
 .calculator{
-  margin: 0 auto;
+  /* margin: 0 auto; */
+	margin-left: 20px;
   max-width: 330px;
 }
 
