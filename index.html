@@ -20,12 +20,9 @@
 				<li>
 					<a href="#" data-toggle="tab" id="metricTab">Metric</a></li>
 			</ul>
-			<div class="container-fluid upperArea">
+			<div class="container-fluid" style="padding-bottom: 25px;">
 				<div class="row">
-					<div class="col-md-offset-1 col-md-5 text-center">
-						 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Skeletal_muscles_homo_sapiens.JPG" height="290px"> 
-					</div>
-					<form class="col-md-6 form-horizontal calculator text-center" role="form">
+					<form class="col-md-offset-2 col-md-5 form-horizontal calculator" role="form">
 						<div class="form-group row">
 							<label class="control-label col-md-offset-1 col-md-3">Gender</label>
 							<div class="col-md-offset-1 col-md-6">
@@ -64,6 +61,9 @@
 							<button type="button" id="calcButton" class="btn btn-default col-md-4 col-md-offset-4">Calculate</button>
 						</div>
 					</form>
+					<div class="col-md-5 text-left">
+						 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Skeletal_muscles_homo_sapiens.JPG" height="290px"> 
+					</div>
 				</div>
 			</div>
 			<div class="container-fluid">
@@ -72,14 +72,14 @@
 				</div>
 				<p>Basal Metabolic Rate<button data-toggle="collapse" data-target="#infoPanel1" class="openCloseButtons"><span id="button1" class="glyphicon glyphicon-chevron-up"></span></button></p>
 				<div id="infoPanel1" class="well well-sm collapse in no-transition">
-					The Mifflin St Jeor equation estimates your <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate">basal metabolic rate</a> (BMR) in kcal/day. Your BMR describes the minimum amount of calories your body will spend each day to exist.
+					Your <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate">basal metabolic rate</a> (BMR) describes the minimum amount of calories your body will spend each day to exist. The <a href="https://en.wikipedia.org/wiki/Basal_metabolic_rate#BMR_estimation_formulas">Mifflin St Jeor equation</a> estimates your BMR in kcal/day:
 					<br/>
-					<br/>The formula: <span style="color:red; font-weight:bold; font-style: italic">BMR = (10M + 6.25H - 5.0A) + S</span>
+					<br/><span style="color:red; font-weight:bold; font-style: italic">BMR = (10*M + 6.25*H - 5.0*A) + S</span>
 					<ul>
 						<li><span style="font-weight:bold">M</span> is mass in kilograms</li>
 						<li><span style="font-weight:bold">H</span> is height in centimeters</li>
 						<li><span style="font-weight:bold">A</span> is age in years</li>
-						<li><span style="font-weight:bold">S</span> is +5 for males and -151 for females (i.e., all else equal, a male will burn more calories at rest than a female)</li>
+						<li><span style="font-weight:bold">S</span> is +5 for males and -151 for females</li>
 				</div>
 				<p>Total Daily Energy Expenditure<button data-toggle="collapse" data-target="#infoPanel2" class="openCloseButtons"><span id="button2" class="glyphicon glyphicon-chevron-up"></span></button></p>
 				<div id="infoPanel2" class="well well-sm collapse in no-transition">
@@ -126,21 +126,22 @@
 				</div>
 				<p>Body Mass Index<button data-toggle="collapse" data-target="#infoPanel3" class="openCloseButtons"><span id="button3" class="glyphicon glyphicon-chevron-up"></span></button></p>
 				<div id="infoPanel3" class="well well-sm collapse in no-transition">
-					Body Mass Index (BMI) is a calculation based on body mass and height. It does not measure body fat directly, but research has shown that BMI is moderately correlated with more direct measures of body fat obtained from skinfold thickness measurements,
+					<a href="https://en.wikipedia.org/wiki/Body_mass_index">Body mass index</a> (BMI) is a calculation based on body mass and height. <br/><br/>
+					According to the CDC, "BMI does not measure body fat directly, but research has shown that BMI is moderately correlated with more direct measures of body fat obtained from skinfold thickness measurements,
 					bioelectrical impedance, densitometry (underwater weighing), dual energy x-ray absorptiometry (DXA) and other methods. Furthermore, BMI appears to be as strongly correlated with various metabolic and disease outcome as are these more direct measures
-					of body fatness. In general, BMI is an inexpensive and easy-to-perform method of screening for weight category, for example underweight, normal or healthy weight, overweight, and obesity.<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/"><sup>1</sup></a>
+					of body fatness. In general, BMI is an inexpensive and easy-to-perform method of screening for weight category, for example underweight, normal or healthy weight, overweight, and obesity."<a href="https://www.cdc.gov/healthyweight/assessing/bmi/adult_bmi/"><sup>1</sup></a>
 					<br/>
 					<br/>
-					<span style="font-weight:bold">NOTE:</span> BMI is calculated from mass and height. It does not differentiate between whether the mass comes from body fat or muscle, and therefore is not a useful metric for bodybuilders or trained athletes.<a href="http://www.bodyrecomposition.com/fat-loss/of-bmi-and-weighing-frequency.html/"><sup>2</sup></a>
+					<span style="font-weight:bold">NOTE:</span> BMI is calculated from mass and height. It does not differentiate between whether the mass comes from body fat or muscle, and therefore may not be a useful metric for bodybuilders or trained athletes.<a href="http://www.bodyrecomposition.com/fat-loss/of-bmi-and-weighing-frequency.html/"><sup>2</sup></a>
 					<br/>
 					<br/>
 					<div class="table-responsive">
 						<table class="table">
 							<th>
-								BMI Value
+								BMI
 							</th>
 							<th>
-								Weight Status
+								Weight Category
 							</th>
 							<tr>
 								<td>Below 18.5</td>

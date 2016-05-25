@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(240,240,240);
+  background-color: rgb(245,250,255);
   font-family: sans-serif;
 }
 
@@ -18,7 +18,7 @@ h1{
   background-color: rgb(255,255,255);
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width: 900px;
 }
 
 .nav-tabs{
@@ -26,12 +26,8 @@ h1{
   margin-bottom: 25px;
 }
 
-.upperArea{
-	padding-bottom: 25px;
-}
-
 .calculator{
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 330px;
 }
 
