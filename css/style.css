@@ -7,6 +7,11 @@ h1{
   font-size: 1.2em;
 }
 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: white;
+	background-color: rgb(130,130,130);
+}
+
 .jumbotron{
   padding-top: 0px;
   border: 2px solid rgb(230,230,230);

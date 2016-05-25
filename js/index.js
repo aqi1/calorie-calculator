@@ -2,6 +2,9 @@ $(document).ready(main);
 
 function main() {
 
+	// load navigation bar
+	$("#navbarheader").load("navigationbar.html");
+		
   // cache selectors
   var $imperialTab = $("#imperialTab"),
     $metricTab = $("#metricTab"),
@@ -21,7 +24,7 @@ function main() {
     $slider = $("#slider"),
     $weightTarget = $("#weightTarget"),
     imperial = true;
-
+		
   // expand or collapse the descriptions
   $infoPanel1.on("shown.bs.collapse", function() {
     $button1.removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
