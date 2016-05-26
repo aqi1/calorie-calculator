@@ -31,6 +31,12 @@ h1{
   max-width: 330px;
 }
 
+#calcButton{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+}
+
 #slider{
   margin-top: 10px;
 }
@@ -56,3 +62,11 @@ h1{
   -o-transition: height 0.01s;
   transition: height 0.01s;
 }
+
+/*
+@media only screen and (max-width: 998px) {
+    img {
+        display: none;
+    }
+}
+*/
